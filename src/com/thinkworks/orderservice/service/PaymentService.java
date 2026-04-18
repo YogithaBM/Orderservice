@@ -19,6 +19,13 @@ public class PaymentService {
 
     }
 
+    public void orderDetails(Order[] orders){
+        for(Order order:orders){
+            orderDetails(order);
+            System.out.println("   ");
+        }
+    }
+
 
 
 }
